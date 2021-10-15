@@ -1,0 +1,3 @@
+But this is an unsatisfactory solution, which raises the following serious question:
+how does one execution thread know that another thread has terminated?
+However, the Thread class provides a means to resolve this issue.
