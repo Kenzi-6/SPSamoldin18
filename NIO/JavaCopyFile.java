@@ -13,7 +13,7 @@ public class JavaCopyFile {
         long start = System.nanoTime();
         copyFile(source,dest);
         copyFile(source1, dest1);
-        System.out.println("Время копирования файла с помощью потоков = "+(System.nanoTime()-start));
+        System.out.println("Время копирования файла = " + (System.nanoTime()-start));
     }
     public static  void copyFile( File source,  File dest)  throws IOException {
 
@@ -22,7 +22,7 @@ public class JavaCopyFile {
         try {
             is = new FileInputStream(source).getChannel();
             os = new FileOutputStream(dest).getChannel();
-            os.transferFrom(is, 0, is.size());
+            os.transferFrom(is, 0, is.size()); // копирование в файл
         } finally {
             is.close();
             os.close();
