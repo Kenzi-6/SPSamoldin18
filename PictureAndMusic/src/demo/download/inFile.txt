@@ -1,0 +1,2 @@
+https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/FIM_Motocross_World_Championship_2012.jpg/800px-FIM_Motocross_World_Championship_2012.jpg src\demo\download\picture.jpg
+https://dl3s2.muzika.fun/aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDQvNjYyLzkzMS80NjYyOTMxLm1wMw== src\demo\download\music.mp3
